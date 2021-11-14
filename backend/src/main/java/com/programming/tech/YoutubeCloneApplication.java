@@ -1,0 +1,14 @@
+package com.programming.tech;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class YoutubeCloneApplication {
+
+	public static void main(String[] args) {
+		System.out.println("hello ");
+		SpringApplication.run(YoutubeCloneApplication.class, args);
+	}
+
+}
